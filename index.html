@@ -1,0 +1,28 @@
+
+<html>
+	<head>
+		<title>Buzon de sugerencias</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<div class="form">
+			<form action="guardar.php" method="POST">
+				<p>Nombre</p>
+				<label for="nombre">Su nombre</label>
+				<br>
+				<input type="text" name="nombre" placeholder="Nombre" required>
+				<p>Correo</p>
+				<label for="correo">Direccion De Correo</label>
+				<br>
+				<input type="email" name="email" placeholder="alguien@algo.com" required>
+				<p>Sugerencia</p>
+				<label for="mensaje">Escriba su sugerencia aqui.</label>
+				<br>
+				<textarea name="mensaje" placeholder="Mensaje" required></textarea>
+				<br>
+				<br>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+	</body>
+</html>
